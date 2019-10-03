@@ -31,7 +31,7 @@ public class SSHDemoMain {
 
 		ssh_connect();
 
-		// 실험
+		
 		return status_return;
 	}
 
@@ -42,7 +42,7 @@ public class SSHDemoMain {
 		if (sshDemoBean.openConnection("root", "adminuser", "192.168.38.135", 22, 120000)) {
 			System.out.println("connected to server \r\n");
 
-			// 실험임
+			
 
 			// 리눅스 명령어 입력
 			sshDemoBean.sendCommand("cd /home/pilot-pjt/mahout-data/ \n");
