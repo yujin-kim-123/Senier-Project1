@@ -37,7 +37,7 @@
 
 
 	<h1><%=status_result%></h1>
-	<!-- window.close()의 경우 크로보가 윈도우 창의 결과 다를 수 있음. 테스트 필요 -->
+	
 	<input type="button" value="닫기" onclick="window.close()" ; />
 
 
